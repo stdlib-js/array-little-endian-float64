@@ -37,18 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-accessor-getter": "^0.2.2",
-    "@stdlib/array-base-getter": "^0.2.2",
-    "@stdlib/array-fixed-endian-float64": "github:stdlib-js/array-fixed-endian-float64#main",
-    "@stdlib/assert-has-iterator-symbol-support": "^0.2.2",
-    "@stdlib/assert-is-collection": "^0.2.2",
-    "@stdlib/assert-is-function": "^0.2.2",
-    "@stdlib/assert-is-object": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
-    "@stdlib/symbol-iterator": "^0.2.2",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
-    "@stdlib/utils-inherit": "^0.2.2",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+    "@stdlib/array-little-endian-factory": "github:stdlib-js/array-little-endian-factory#main"
   },
   "devDependencies": {
     "@stdlib/array-buffer": "^0.2.2",
@@ -60,6 +49,7 @@
     "@stdlib/console-log-each": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/random-array-randu": "^0.2.1",
+    "@stdlib/symbol-iterator": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
