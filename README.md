@@ -54,7 +54,7 @@ In contrast to the [`Float64Array`][@stdlib/array/float64] typed array construct
 ## Usage
 
 ```javascript
-import Float64ArrayLE from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-float64@deno/mod.js';
+import Float64ArrayLE from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-float64@v0.1.0-deno/mod.js';
 ```
 
 #### Float64ArrayLE()
@@ -394,7 +394,7 @@ var str = arr.toString();
 ```javascript
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
-import Float64ArrayLE from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-float64@deno/mod.js';
+import Float64ArrayLE from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-float64@v0.1.0-deno/mod.js';
 
 // Create a typed array by specifying a length:
 var out = new Float64ArrayLE( 3 );
